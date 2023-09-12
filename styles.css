@@ -1,0 +1,38 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  border: 3px solid red;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.information{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+.sentiment{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-im; */
+}
+.callog{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: yellow; */
+}
